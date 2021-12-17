@@ -7,7 +7,7 @@ export async function getUser() {
 export async function checkLoggedIn() {
     const user = await getUser();
     if (!user) {
-        window.location = '../';
+        window.location = './';
     }
 }
 
